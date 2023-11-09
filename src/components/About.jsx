@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiOutlineLine } from "react-icons/ai";
 import Logo from "../assets/logo.png"
 
 const About = () => {
@@ -7,7 +8,7 @@ const About = () => {
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         <img className='w-[500px] mx-auto my-4' src={Logo} alt='/' />
         <div className='flex flex-col justify-center'>
-          <p className='text-black font-bold py-3'>WHO WE ARE </p>
+          <p className='text-black font-bold py-3 flex gap-1'><AiOutlineLine size={30}/>WHO WE ARE </p>
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
@@ -20,7 +21,7 @@ const About = () => {
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
           nisi ut aliquip ex ea commodo consequat.
           </p>
-          <button className='w-[200px] border-2 border-neutral-400 my-6 mx-auto md:mx-0 py-2 hover:bg-black hover:text-white'>START VIRTUAL TOUR</button>
+          <button className='w-[200px] border-2 border-neutral-400 my-6 mx-auto md:mx-0 py-2 hover:bg-black hover:text-white hover:border-black'>START VIRTUAL TOUR</button>
         </div>
       </div>
     </div>
