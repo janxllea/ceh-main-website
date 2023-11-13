@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
       <img className='w-[200px] ' src={Logo} alt="/" />
       <ul className='hidden md:flex'>
-        <li className='p-4'>Home</li>
+        <li className='p-4' scr='google.com'>Home</li>
         <li className='p-4'>About</li>
         <li className='p-4'>Services</li>
         <li className='p-4'>Contact</li>

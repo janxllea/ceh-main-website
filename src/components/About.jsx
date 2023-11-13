@@ -1,14 +1,14 @@
 import React from 'react';
 import { AiOutlineLine } from "react-icons/ai";
-import Logo from "../assets/logo.png"
+import Asset1 from "../assets/about.jpg"
 
 const About = () => {
   return (
     <div className='w-full bg-white py-16 px-4'>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-        <img className='w-[500px] mx-auto my-4' src={Logo} alt='/' />
+        <img className='w-[450px] mx-auto my-0' src={Asset1} alt='/' />
         <div className='flex flex-col justify-center'>
-          <p className='text-black font-bold py-3 flex gap-1'><AiOutlineLine size={30}/>WHO WE ARE </p>
+          <p className='text-black font-bold py-3 flex gap-2'><AiOutlineLine size={30}/>WHO WE ARE </p>
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
