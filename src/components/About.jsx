@@ -22,7 +22,7 @@ const About = () => {
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
           nisi ut aliquip ex ea commodo consequat.
           </p>
-          <button className='w-[200px] border-2 border-black my-6 mx-auto md:mx-0 py-2 hover:bg-black hover:text-white hover:border-black'>START VIRTUAL TOUR</button>
+          {/* <button className='w-[200px] border-2 border-black my-6 mx-auto md:mx-0 py-2 hover:bg-black hover:text-white hover:border-black'>START VIRTUAL TOUR</button> */}
         </div>
       </div>
     </div>

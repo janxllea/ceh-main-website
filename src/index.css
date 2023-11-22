@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.hero-bg{
+  background-image: url('./assets/hero.jpg');
+}
+
 body {
   background-color: #231F20;
 }

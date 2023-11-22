@@ -4,7 +4,7 @@ import { AiOutlineLine } from "react-icons/ai";
 
 const Services = () => {
     return (
-        <div className="w-full bg-[#231F20] mx-auto h-100hv py-10 px-4">
+        <div className="w-full bg-[#231F20] mx-auto h-100hv py-10 px-10">
             <p className='text-white text-lg font-bold flex gap-2'><AiOutlineLine size={30}/>WHAT WE HAVE TO OFFER</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="px-12 py-8">
